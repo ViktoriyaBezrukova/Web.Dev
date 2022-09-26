@@ -53,16 +53,10 @@ header {
 	margin-right: auto;
 }
 
-.logo__img {}
-
-.header__nav {}
-
 .header__list {
 	display: flex;
 	margin-right: 50px;
 }
-
-.header__item {}
 
 .header__item:not(:last-child) {
 	margin-right: 50px;
@@ -145,7 +139,7 @@ header {
 }
 
 .hero__subtitle {
-	font-size: calc(11px + 7 * (100vw / 1170));
+	font-size: calc(15px + 7 * (100vw / 1170));
 	line-height: 27px;
 	text-align: center;
 	color: #514040;
@@ -160,7 +154,7 @@ header {
 	}
 
 	.hero__subtitle {
-		font-size: calc(11px + (7 + 7 * 0.7) * ((100vw - 320px) / 1170));
+		font-size: calc(16px + (7 + 7 * 0.7) * ((100vw - 320px) / 1170));
 	}
 }
 
@@ -170,8 +164,6 @@ header {
 	height: 58px;
 	margin-right: 37px;
 }
-
-.hero-rl {}
 
 .hero__user-interactive {
 	display: flex;
@@ -199,15 +191,18 @@ header {
 
 .logo__inner {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
-.logo__company-img {}
-
+.logo__company-img{
+	max-width: 125px;
+	width: 100%;
+	height: auto;
+}
 
 /* ---------------SKILLS----------------- */
 .skill {
@@ -276,8 +271,6 @@ header {
 	color: #313131;
 }
 
-.card__center {}
-
 .card__center-text {
 	font-size: 18px;
 	line-height: 147.9%;
@@ -316,8 +309,6 @@ header {
 	padding-bottom: 140px;
 }
 
-.portfolio__inner {}
-
 .portfolio__catalog {
 	margin: 0 auto;
 	max-width: 1009px;
@@ -333,8 +324,6 @@ header {
 }
 
 .portfolio__card3 {}
-
-.portfolio-img {}
 
 .portfolio__descr {
 	display: flex;
@@ -432,8 +421,6 @@ header {
 	display: flex;
 }
 
-.slider {}
-
 .slider .slick-arrow {
 	position: absolute;
 	top: 90%;
@@ -529,8 +516,6 @@ header {
 }
 
 .link {}
-
-.btn {}
 
 .price-btn {
 	display: inline-block;
@@ -643,7 +628,7 @@ header {
 	padding-right: 5px;
 	padding-left: 5px;
 	margin-right: 100px;
-	}
+}
 
 .center-side__item-title {
 	margin-bottom: 39px;
@@ -720,6 +705,7 @@ header {
 	line-height: 100%;
 	color: #313131;
 }
-.footer__block{
+
+.footer__block {
 	display: flex;
 }
