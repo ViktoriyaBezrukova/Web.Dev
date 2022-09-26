@@ -675,13 +675,12 @@ header {
 }
 
 .right-side__button {
+	
 	display: flex;
 	align-items: center;
-	width: 175px;
-	height: 40px;
-	text-align: center;
 	padding-top: 12px;
-	padding-left: 13px;
+	padding-left: 10px;
+	padding-right: 30px;
 	padding-bottom: 12px;
 	border: none;
 	background: #F2F2F2;
@@ -689,9 +688,18 @@ header {
 }
 
 .button-arrow {
-	margin-left: 52px;
+	/* position: absolute;
+	top: 72px;
+	right: 10px; */
+	/* margin-left: 52px; */
 }
-
+.footer__right-side button{
+	position: absolute;
+	top: 72px;
+	right: 10px;
+	border: none;
+	cursor: pointer;
+}
 
 .footer-bottom {
 	height: 96px;
