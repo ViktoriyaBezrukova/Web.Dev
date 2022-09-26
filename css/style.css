@@ -665,7 +665,7 @@ header {
 
 
 .footer__right-side {
-	position:relative;
+	position: relative;
 }
 
 .right-side__text {
@@ -677,7 +677,6 @@ header {
 }
 
 .right-side__button {
-	
 	display: flex;
 	align-items: center;
 	padding-top: 12px;
