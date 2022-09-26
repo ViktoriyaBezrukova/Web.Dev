@@ -664,7 +664,9 @@ header {
 }
 
 
-.footer__right-side {}
+.footer__right-side {
+	position:relative;
+}
 
 .right-side__text {
 	font-family: 'Gilroy-SemiBold';
