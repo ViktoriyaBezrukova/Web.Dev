@@ -689,17 +689,22 @@ header {
 }
 
 .button-arrow {
-	/* position: absolute;
+	position: absolute;
 	top: 72px;
-	right: 10px; */
-	/* margin-left: 52px; */
+	right: 10px;
+	margin-left: 52px;
+	z-index: 1;
+	cursor: pointer;
 }
-.footer__right-side button{
+
+.footer__right-side button {
 	position: absolute;
 	top: 72px;
 	right: 10px;
 	border: none;
 	cursor: pointer;
+	width: 17px;
+	height: 17px;
 }
 
 .footer-bottom {
